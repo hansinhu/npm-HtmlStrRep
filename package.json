@@ -1,16 +1,25 @@
 {
-  "name": "htmlstrrep",
-  "version": "1.0.2",
+  "name": "html-str-replace",
+  "version": "1.0.0",
   "description": "replace string for html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansinhu/npm-HtmlStrRep.git"
+  },
   "keywords": [
-    "html",
     "replace",
-    "keywords"
+    "string",
+    "for",
+    "html"
   ],
-  "author": "hansinhu",
-  "license": "ISC"
+  "author": "hansin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansinhu/npm-HtmlStrRep/issues"
+  },
+  "homepage": "https://github.com/hansinhu/npm-HtmlStrRep#readme"
 }
