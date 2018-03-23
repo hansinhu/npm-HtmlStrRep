@@ -1,0 +1,16 @@
+{
+  "name": "htmlstrrep",
+  "version": "1.0.2",
+  "description": "replace string for html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "replace",
+    "keywords"
+  ],
+  "author": "hansinhu",
+  "license": "ISC"
+}
