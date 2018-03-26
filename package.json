@@ -2,7 +2,7 @@
   "name": "html-str-replace",
   "version": "1.0.2",
   "description": "replace string for html",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
