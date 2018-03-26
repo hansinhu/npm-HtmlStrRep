@@ -4,13 +4,15 @@ const path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-  entry: 'index.js',
+  entry: './index.js',
   output: {
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    path: path.resolve(__dirname, 'dist')
+    library: 'HtmlStrReplace', // 暴露library
+    libraryTarget: 'umd' //libraryTarget 控制 library 如何以不同方式暴露的选项(var this window umd)。
   },
   plugins: [
     // tree shaking
-    new UglifyJSPlugin()
+    // new UglifyJSPlugin()
   ]
 }
