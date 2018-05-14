@@ -1,7 +1,7 @@
 
 // str: 目标字符串，sFrom: 被替换的字符串， sTo:  替换成字符串,
 
-export default class htmlStrRep {
+export default class HtmlStrRep {
   constructor () {
     this.endObj = {
       tag: '',

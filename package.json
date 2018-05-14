@@ -23,5 +23,10 @@
     "url": "https://github.com/hansinhu/npm-HtmlStrRep/issues"
   },
   "homepage": "https://github.com/hansinhu/npm-HtmlStrRep#readme",
-  "dependencies": {}
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.3"
+  }
 }
