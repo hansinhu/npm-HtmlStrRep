@@ -1,7 +1,7 @@
 # HtmlStrRep for html string repalce with keywords
 ### HtmlStrRep install
 ```bash
-  npm install html-str-replace --save-dev
+  npm install html-str-replace --save
 ```
 ### HtmlStrRep for ES6
 ```js
