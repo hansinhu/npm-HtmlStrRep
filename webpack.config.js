@@ -13,6 +13,6 @@ module.exports = {
   },
   plugins: [
     // tree shaking
-    // new UglifyJSPlugin()
+    new UglifyJSPlugin()
   ]
 }

@@ -2,7 +2,7 @@
   "name": "html-str-replace",
   "version": "2.0.0",
   "description": "replace string for html",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/hansinhu/npm-HtmlStrRep#readme",
   "dependencies": {
-    "babel-runtime": "^6.26.0"
+    "babel-runtime": "^6.26.0",
+    "webpack": "^4.19.0"
   },
   "devDependencies": {
     "webpack-cli": "^2.1.3"
