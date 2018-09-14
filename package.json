@@ -1,6 +1,6 @@
 {
   "name": "html-str-replace",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "replace string for html",
   "main": "dist/index.js",
   "scripts": {
